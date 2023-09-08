@@ -2,12 +2,17 @@ import Link from "../Texts/Link";
 import TextCommon from "../Texts/TextCommon";
 import TextSecundary from "../Texts/TextSecundary";
 
-export default function Descrition({title, text}) {
+export default function Descrition({title, text,classnameLink}) {
     return (
-        <div className="px-5 py-16 text-center flex flex-col gap-10">
-            <TextSecundary classname="text-4xl font-bold" text={title} />
-            <TextCommon classname="text-lg text-gray-600" text={text} />
-            <Link classname="text-lg font-extrabold" text="LEARN MORE" />
+        <div className="
+            sm:px-5 py-16 flex flex-col gap-10
+            xl:px-32
+            ">
+            <TextSecundary classname="text-4xl font-bold xl:text-5xl xl:pr-3" text={title} />
+            <TextCommon classname="text-lg text-gray-600 xl:text-xl" text={text} />
+            <div className="">
+                <Link classname={classnameLink} text="LEARN MORE" />
+            </div>
         </div>
     )
 }

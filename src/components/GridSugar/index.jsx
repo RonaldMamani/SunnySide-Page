@@ -5,9 +5,12 @@ import Image4 from "../../assets/desktop/image-gallery-sugarcubes.jpg"
 
 export default function GridSugar() {
     return (
-        <section className="grid grid-cols-2 grid-rows-2">
-            <div>
-                <img src={Image1} alt="" />
+        <section className="
+            grid grid-cols-2 grid-rows-2
+            md:grid-cols-4 md:grid-rows-1
+            ">
+            <div className="">
+                <img className="" src={Image1} alt="" />
             </div>
             <div>
                 <img src={Image2} alt="" />

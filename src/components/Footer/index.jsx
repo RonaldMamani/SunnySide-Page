@@ -14,10 +14,13 @@ export default function Footer() {
             <div className="flex justify-center">
                 <img src={logo} alt="Sunnyside" />
             </div>
-            <div className="flex justify-between">
-                <Link classname="text-teal-700 text-lg font-semibold" text="About" />
-                <Link classname="text-teal-700 text-lg font-semibold" text="Services" />
-                <Link classname="text-teal-700 text-lg font-semibold" text="Projects" />
+            <div className="
+                flex justify-between
+                md:justify-center xl:gap-20
+                ">
+                <Link classname="text-teal-700 text-lg font-semibold hover:text-white transition-colors" text="About" />
+                <Link classname="text-teal-700 text-lg font-semibold hover:text-white transition-colors" text="Services" />
+                <Link classname="text-teal-700 text-lg font-semibold hover:text-white transition-colors" text="Projects" />
             </div>
             <div className="flex justify-center gap-6 py-8">
                 <Social image={Facebook} name="facebook" />

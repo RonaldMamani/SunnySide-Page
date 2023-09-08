@@ -4,7 +4,7 @@ import NavBar from "./Navbar"
 export default function Header() {
     return (
         <header className="">
-            <img src={logo} alt="" />
+            <img className="" src={logo} alt="" />
         </header>
     )
 }
