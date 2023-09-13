@@ -9,8 +9,8 @@ export default function Ingredients() {
             md:grid-cols-2 md:grid-rows-3
             ">
             <Fruits image="
-                bg-[url('./src/assets/mobile/image-transform.jpg')] bg-cover bg-center bg-no-repeat
-                md:bg-[url('./src/assets/desktop/image-transform.jpg')] md:order-2 h-full
+                bg-[url('./assets/mobile/image-transform.jpg')] bg-cover bg-center bg-no-repeat
+                md:bg-[url('./assets/desktop/image-transform.jpg')] md:order-2 h-full
                 " />
             <div className="md:order-1 max-[1024px]:text-center">
                 <Descrition 
@@ -20,8 +20,8 @@ export default function Ingredients() {
                 />
             </div>
             <Fruits image="
-                bg-[url('./src/assets/mobile/image-stand-out.jpg')] bg-cover bg-center bg-no-repeat
-                md:bg-[url('./src/assets/desktop/image-stand-out.jpg')] md:order-3 h-full
+                bg-[url('./assets/mobile/image-stand-out.jpg')] bg-cover bg-center bg-no-repeat
+                md:bg-[url('./assets/desktop/image-stand-out.jpg')] md:order-3 h-full
                 " />
             <div className="md:order-4 max-[1024px]:text-center">
                 <Descrition 
@@ -32,16 +32,16 @@ export default function Ingredients() {
             </div>
             <Fruits 
                 image="
-                    bg-[url('./src/assets/mobile/image-graphic-design.jpg')] bg-cover bg-no-repeat
-                    md:bg-[url('./src/assets/desktop/image-graphic-design.jpg')] bg-center md:order-5
+                    bg-[url('./assets/mobile/image-graphic-design.jpg')] bg-cover bg-no-repeat
+                    md:bg-[url('./assets/desktop/image-graphic-design.jpg')] bg-center md:order-5
                     "
                 title="Graphic Design"
                 descrition="Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention."    
             />
             <Fruits 
                 image="
-                    bg-[url('./src/assets/mobile/image-photography.jpg')] bg-cover bg-top bg-no-repeat
-                    md:bg-[url('./src/assets/desktop/image-photography.jpg')] bg-center md:order-6
+                    bg-[url('./assets/mobile/image-photography.jpg')] bg-cover bg-top bg-no-repeat
+                    md:bg-[url('./assets/desktop/image-photography.jpg')] bg-center md:order-6
                 "
                 title="Photography"
                 descrition="Increase your credibility by getting the most stunning, high-quality photos that improve your business image."    
