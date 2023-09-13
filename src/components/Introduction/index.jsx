@@ -2,13 +2,12 @@ import TextPrincipal from "../Texts/TextPrinicipal";
 
 import Arrow from "../../assets/icon-arrow-down.svg"
 import NavBar from "../Header/Navbar";
-import Header from "../Header";
 
 export default function Introduction() {
     return (
         <section className="
-            bg-headerMob bg-cover bg-center bg-no-repeat h-screen
-            md:bg-header
+            bg-[url('./assets/mobile/image-header.jpg')] bg-cover bg-center bg-no-repeat h-screen
+            md:bg-[url('./assets/desktop/image-header.jpg')]
             ">
             <NavBar />
             <div className="flex flex-col mt-20 items-center gap-16">
